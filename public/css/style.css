@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'monospace', sans-serif;
+}
+section{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+header{
+    height: 5vh;
+    background-color: #0081c7;
+    align-items: center;
+    color: white;
+    padding: 0 5vw;
+    font-size:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.main div{
+    font-weight: bold;
+    margin: 5vh 0;
+    font-size: 20px;
+}
+.users{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.users div{
+    text-align: center  ;
+    width: 15%;
+}
